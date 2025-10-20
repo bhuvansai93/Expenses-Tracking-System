@@ -1,6 +1,6 @@
 import mysql.connector
 from contextlib import contextmanager
-from .logging_setup import setup_logger
+
 import os, sys
 
 # Ensure backend folder is always on the module search path
