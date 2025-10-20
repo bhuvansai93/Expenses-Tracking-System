@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 
-API_URL = "http://localhost:8000"
+API_URL = "http://127.0.0.1:8000"
 
 def analytics_by_month_tab():
     response = requests.get(f"{API_URL}/analytics_by_month")
