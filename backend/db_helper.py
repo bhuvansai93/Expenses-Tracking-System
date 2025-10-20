@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(__file__))
 
 try:
     # Works when backend is treated as a package (Render)
-    from .logging_setup import setup_logger
+    from logging_setup import setup_logger
 except ImportError:
     # Works when backend is run as a standalone folder (Streamlit)
     from logging_setup import setup_logger
